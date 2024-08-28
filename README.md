@@ -1,2 +1,2 @@
-# WSLink
-The Home Assistant integration for WSLink.
+# CCL Electronics
+The Home Assistant integration for CCL.
