@@ -1,0 +1,50 @@
+{
+  "entity": {
+    "sensor": {
+      "WIND_DIRECTION": {
+        "default": "mdi:windsock"
+      },
+      "CH_SENSOR_TYPE": {
+        "default": "mdi:thermometer",
+        "state": {
+          "Thermo-Hygro": "mdi:thermometer-water",
+          "Pool": "mdi:pool-thermometer",
+          "Soil": "mdi:thermometer-water"
+        }
+      },
+      "UVI": {
+        "default": "mdi:sun-wireless-outline"
+      },
+      "VOC": {
+        "default": "mdi:grain"
+      },
+      "PM10": {
+        "default": "mdi:grain"
+      },
+      "PM25": {
+        "default": "mdi:grain"
+      },
+      "AQI": {
+        "default": "mdi:grain"
+      },
+      "BATTERY": {
+        "default": "mdi:battery-unknown",
+        "state": {
+          "0": "mdi:battery-outline",
+          "1": "mdi:battery-20",
+          "2": "mdi:battery-40",
+          "3": "mdi:battery-60",
+          "4": "mdi:battery-80",
+          "5": "mdi:battery"
+        }
+      },
+      "LEAKAGE": {
+        "default": "mdi:pipe-leak",
+        "state": {
+          "0": "mdi:marker-check",
+          "1": "mdi:pipe-leak"
+        }
+      }
+    }
+  }
+}
