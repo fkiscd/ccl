@@ -16,7 +16,7 @@
         "default": "mdi:sun-wireless-outline"
       },
       "VOC": {
-        "default": "mdi:grain"
+        "default": "mdi:molecule"
       },
       "PM10": {
         "default": "mdi:grain"
@@ -30,19 +30,19 @@
       "BATTERY": {
         "default": "mdi:battery-unknown",
         "state": {
-          "0": "mdi:battery-outline",
-          "1": "mdi:battery-20",
-          "2": "mdi:battery-40",
-          "3": "mdi:battery-60",
-          "4": "mdi:battery-80",
-          "5": "mdi:battery"
+          "Lv 0": "mdi:battery-outline",
+          "Lv 1": "mdi:battery-20",
+          "Lv 2": "mdi:battery-40",
+          "Lv 3": "mdi:battery-60",
+          "Lv 4": "mdi:battery-80",
+          "Lv 5": "mdi:battery"
         }
       },
       "LEAKAGE": {
         "default": "mdi:pipe-leak",
         "state": {
-          "0": "mdi:marker-check",
-          "1": "mdi:pipe-leak"
+          "No Leak": "mdi:marker-check",
+          "Leaking": "mdi:pipe-leak"
         }
       }
     }
