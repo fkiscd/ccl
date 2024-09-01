@@ -27,9 +27,6 @@ CCL_BINARY_SENSOR_DESCRIPTIONS: dict[str, BinarySensorEntityDescription] = {
         key="CONNECTION",
         device_class=BinarySensorDeviceClass.CONNECTIVITY,
     ),
-    CCLSensorTypes.LEAKAGE: BinarySensorEntityDescription(
-        key="LEAKAGE",
-    ),
 }
 
 async def async_setup_entry(
