@@ -141,21 +141,24 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
         key="LEAKAGE",
         translation_key="LEAKAGE",
     ),
-    CCLSensorTypes.DISTANCE: SensorEntityDescription(
-        key="DISTANCE",
+    CCLSensorTypes.LIGHTNING_DISTANCE: SensorEntityDescription(
+        key="LIGHTNING_DISTANCE",
         device_class=SensorDeviceClass.DISTANCE,
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=UnitOfLength.KILOMETERS,
+        translation_key="LIGHTNING_DISTANCE",
     ),
-    CCLSensorTypes.DURATION: SensorEntityDescription(
-        key="DURATION",
+    CCLSensorTypes.LIGHTNING_DURATION: SensorEntityDescription(
+        key="LIGHTNING_DURATION",
         device_class=SensorDeviceClass.DURATION,
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=UnitOfTime.MINUTES,
+        translation_key="LIGHTNING_DURATION",
     ),
-    CCLSensorTypes.FREQUENCY_NU: SensorEntityDescription(
-        key="FREQUENCY_NU",
+    CCLSensorTypes.LIGHTNING_FREQUENCY_NU: SensorEntityDescription(
+        key="LIGHTNING_FREQUENCY",
         state_class=SensorStateClass.MEASUREMENT,
+        translation_key="LIGHTNING_FREQUENCY",
     ),
 }
 

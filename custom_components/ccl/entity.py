@@ -29,7 +29,6 @@ class CCLEntity(Entity):
             },
             name = self.device_name,
             model = device.model,
-            serial_number = device.serial_no,
             manufacturer = "CCL Electronics",
             sw_version = device.fw_ver,
         )

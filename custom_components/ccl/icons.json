@@ -44,6 +44,15 @@
           "No Leak": "mdi:marker-check",
           "Leaking": "mdi:pipe-leak"
         }
+      },
+      "LIGHTNING_DISTANCE": {
+        "default": "mdi:flash"
+      },
+      "LIGHTNING_DURATION": {
+        "default": "mdi:flash"
+      },
+      "LIGHTNING_FREQUENCY": {
+        "default": "mdi:flash"
       }
     }
   }
