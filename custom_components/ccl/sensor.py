@@ -155,7 +155,7 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
         native_unit_of_measurement=UnitOfTime.MINUTES,
         translation_key="LIGHTNING_DURATION",
     ),
-    CCLSensorTypes.LIGHTNING_FREQUENCY_NU: SensorEntityDescription(
+    CCLSensorTypes.LIGHTNING_FREQUENCY: SensorEntityDescription(
         key="LIGHTNING_FREQUENCY",
         state_class=SensorStateClass.MEASUREMENT,
         translation_key="LIGHTNING_FREQUENCY",
