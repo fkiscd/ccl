@@ -18,6 +18,7 @@ from homeassistant.const import (
     DEGREE,
     EntityCategory,
     PERCENTAGE,
+    UnitOfElectricPotential,
     UnitOfLength,
     UnitOfIrradiance,
     UnitOfPrecipitationDepth,
@@ -159,6 +160,12 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
         key="LIGHTNING_FREQUENCY",
         state_class=SensorStateClass.MEASUREMENT,
         translation_key="LIGHTNING_FREQUENCY",
+    ),
+    CCLSensorTypes.BATTERY_VOLTAGE: SensorEntityDescription(
+        key="BATTERY_VOLTAGE",
+        device_class=SensorDeviceClass.VOLTAGE,
+        state_class=SensorStateClass.MEASUREMENT,
+        native_unit_of_measurement=UnitOfElectricPotential.VOLT,
     ),
 }
 
