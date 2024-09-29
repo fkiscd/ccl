@@ -1,10 +1,10 @@
 {
   "entity": {
     "sensor": {
-      "WIND_DIRECTION": {
+      "wind_direction": {
         "default": "mdi:windsock"
       },
-      "CH_SENSOR_TYPE": {
+      "ch_sensor_type": {
         "default": "mdi:thermometer",
         "state": {
           "Thermo-Hygro": "mdi:thermometer-water",
@@ -12,22 +12,22 @@
           "Soil": "mdi:thermometer-water"
         }
       },
-      "UVI": {
+      "uvi": {
         "default": "mdi:sun-wireless-outline"
       },
-      "VOC": {
+      "voc": {
         "default": "mdi:molecule"
       },
-      "PM10": {
+      "pm10": {
         "default": "mdi:grain"
       },
-      "PM25": {
+      "pm25": {
         "default": "mdi:grain"
       },
-      "AQI": {
+      "aqi": {
         "default": "mdi:grain"
       },
-      "BATTERY": {
+      "bettery": {
         "default": "mdi:battery-unknown",
         "state": {
           "Lv 0": "mdi:battery-outline",
@@ -38,20 +38,20 @@
           "Lv 5": "mdi:battery"
         }
       },
-      "LEAKAGE": {
+      "leakage": {
         "default": "mdi:pipe-leak",
         "state": {
           "No Leak": "mdi:marker-check",
           "Leaking": "mdi:pipe-leak"
         }
       },
-      "LIGHTNING_DISTANCE": {
+      "lightning_distance": {
         "default": "mdi:flash"
       },
-      "LIGHTNING_DURATION": {
+      "lightning_duration": {
         "default": "mdi:flash"
       },
-      "LIGHTNING_FREQUENCY": {
+      "lightning_frequency": {
         "default": "mdi:flash"
       }
     }

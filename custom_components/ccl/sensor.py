@@ -58,7 +58,7 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
         key="WIND_DIRECTION",
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=DEGREE,
-        translation_key="WIND_DIRECTION",
+        translation_key="wind_direction",
     ),
     CCLSensorTypes.WIND_SPEED: SensorEntityDescription(
         key="WIND_SPEED",
@@ -81,7 +81,7 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
     CCLSensorTypes.UVI: SensorEntityDescription(
         key="UVI",
         state_class=SensorStateClass.MEASUREMENT,
-        translation_key="UVI",
+        translation_key="uvi",
     ),
     CCLSensorTypes.RADIATION: SensorEntityDescription(
         key="RADIATION",
@@ -91,7 +91,7 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
     ),
     CCLSensorTypes.CH_SENSOR_TYPE: SensorEntityDescription(
         key="CH_SENSOR_TYPE",
-        translation_key="CH_SENSOR_TYPE",
+        translation_key="ch_sensor_type",
     ),
     CCLSensorTypes.CO: SensorEntityDescription(
         key="CO",
@@ -113,53 +113,53 @@ CCL_SENSOR_DESCRIPTIONS: dict[str, SensorEntityDescription] = {
     ),
     CCLSensorTypes.VOC: SensorEntityDescription(
         key="VOC",
-        translation_key="VOC",
+        translation_key="voc",
     ),
     CCLSensorTypes.PM10: SensorEntityDescription(
         key="PM10",
         device_class=SensorDeviceClass.PM10,
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
-        translation_key="PM10",
+        translation_key="pm10",
     ),
     CCLSensorTypes.PM25: SensorEntityDescription(
         key="PM25",
         device_class=SensorDeviceClass.PM25,
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
-        translation_key="PM25",
+        translation_key="pm25",
     ),
     CCLSensorTypes.AQI: SensorEntityDescription(
         key="AQI",
         state_class=SensorStateClass.MEASUREMENT,
-        translation_key="AQI",
+        translation_key="aqi",
     ),
     CCLSensorTypes.BATTERY: SensorEntityDescription(
         key="BATTERY",
-        translation_key="BATTERY",
+        translation_key="battery",
     ),
     CCLSensorTypes.LEAKAGE: SensorEntityDescription(
         key="LEAKAGE",
-        translation_key="LEAKAGE",
+        translation_key="leakage",
     ),
     CCLSensorTypes.LIGHTNING_DISTANCE: SensorEntityDescription(
         key="LIGHTNING_DISTANCE",
         device_class=SensorDeviceClass.DISTANCE,
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=UnitOfLength.KILOMETERS,
-        translation_key="LIGHTNING_DISTANCE",
+        translation_key="lightning_distance",
     ),
     CCLSensorTypes.LIGHTNING_DURATION: SensorEntityDescription(
         key="LIGHTNING_DURATION",
         device_class=SensorDeviceClass.DURATION,
         state_class=SensorStateClass.MEASUREMENT,
         native_unit_of_measurement=UnitOfTime.MINUTES,
-        translation_key="LIGHTNING_DURATION",
+        translation_key="lightning_duration",
     ),
     CCLSensorTypes.LIGHTNING_FREQUENCY: SensorEntityDescription(
         key="LIGHTNING_FREQUENCY",
         state_class=SensorStateClass.MEASUREMENT,
-        translation_key="LIGHTNING_FREQUENCY",
+        translation_key="lightning_frequency",
     ),
     CCLSensorTypes.BATTERY_VOLTAGE: SensorEntityDescription(
         key="BATTERY_VOLTAGE",
